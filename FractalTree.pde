@@ -1,4 +1,4 @@
-private double fractionLength = .8; 
+private double fractionLength = .75; 
 private int smallestBranch = 10; 
 private double branchAngle = .2;  
 public void setup() 
@@ -35,7 +35,7 @@ public void keyPressed()
 {
 	if(key=='w')
 	{
-		if(fractionLength<.8)
+		if(fractionLength<.75)
 		{
 			fractionLength+=.05;
 		}
