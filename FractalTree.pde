@@ -35,25 +35,25 @@ public void keyPressed()
 {
 	if(key=='w')
 	{
-		fractionLength-=.05;
+		fractionLength+=.05;
 		redraw();
 	}
 	if(key=='s')
 	{
 		if(fractionLength<.8)
 		{
-			fractionLength+=.05;
+			fractionLength-=.05;
 		}
 		redraw();
 	}
 	if(key=='a')
 	{
-		branchAngle-=.01;
+		branchAngle-=.05;
 		redraw();
 	}
 	if(key=='d')
 	{
-		branchAngle+=.01;
+		branchAngle+=.05;
 		redraw();
 	}
 }
