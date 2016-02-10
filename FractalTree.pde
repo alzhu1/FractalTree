@@ -48,12 +48,12 @@ public void keyPressed()
 	}
 	if(key=='a')
 	{
-		branchAngle-=.05;
+		branchAngle-=.01;
 		redraw();
 	}
 	if(key=='d')
 	{
-		branchAngle+=.05;
+		branchAngle+=.01;
 		redraw();
 	}
 }
